@@ -1,4 +1,4 @@
-# get_veo_video_url
+# get_veo_video_url.py
 import re
 import csv
 import time
@@ -272,8 +272,8 @@ def setup_driver():
 
 
 def main():
-    input_file = 'urls.txt'
-    output_file = 'video_urls.csv'
+    input_file = 'data/input/urls.txt'
+    output_file = 'data/output/video_urls.csv'
     delay_between_requests = 3  # Reduced delay for faster processing
 
     # Check requirements before starting
